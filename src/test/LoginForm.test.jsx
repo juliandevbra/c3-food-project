@@ -6,7 +6,7 @@ describe('Testing elements in LoginForm', () => {
     test('Should render title', () => {
         render(<LoginForm/>)
         const title = screen.getByText(/debe loguear/i)
-        expect(title).toBeDefined()
+        expect(title).toBeVisible()
     })
     test('Should render first input', () => {
         render(<LoginForm/>)
