@@ -6,27 +6,13 @@ import About from './Pages/About'
 import Navbar from './Components/Navbar'
 import { routes } from './utils/routes'
 import RecipeDetail from './Pages/RecipeDetail'
-import ParentComponent from './Clase 13/ParentComponent'
-import LoboEstepario from './Clase 13/LoboEstepario'
-import Context from './Context/Context'
+import Counter from './Components/Counter'
 
 function App() {
 
   return (
     <>
-      {/* <Context>
-        <ParentComponent>
-          <h1>Esto es el contenido de Parent</h1>
-          <p>Texto ejemplo</p>
-        </ParentComponent>
-
-        <ParentComponent>
-          <h1>Otro titulo de ejemplo</h1>
-          <h3>Otro texto de ejemplo</h3>
-        </ParentComponent>
-      
-        <LoboEstepario/>
-      </Context> */}
+  {/* <Counter/> */}
       
       <Navbar/>
       <Routes>
